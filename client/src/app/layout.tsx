@@ -23,14 +23,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider>
+    <ClerkProvider> {/* Provides authentication context */}
       <html lang="en">
         <body className={`${dmSans.className}`}>
-          <Providers>
-            <Suspense fallback={null}>
-              <div className="root-layout">{children}</div>
+          <Providers> {/* Global state management provider */}
+            <Suspense fallback={null}> {/* Handles lazy-loaded components */}
+              <div className="root-layout">{children}</div> {/* Main content container */}
             </Suspense>
-            <Toaster richColors closeButton />
+            <Toaster richColors closeButton /> {/* Toast notifications */}
           </Providers>
         </body>
       </html>
