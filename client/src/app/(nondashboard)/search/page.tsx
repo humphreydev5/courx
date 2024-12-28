@@ -15,6 +15,7 @@ const Search = () => {
   const [selectedCourse, setSelectedCourse] = useState<Course | null>(null);
   const router = useRouter();
 
+  // Set selected course based on query parameter or default to the first course
   useEffect(() => {
     if (courses) {
       if (id) {
@@ -29,6 +30,7 @@ const Search = () => {
   if (isLoading) return <Loading />;
   if (isError || !courses) return <div>Failed to fetch courses</div>;
 
+  // Handle course selection and update URL
   const handleCourseSelect = (course: Course) => {
     setSelectedCourse(course);
     router.push(`/search?id=${course.courseId}`, {
@@ -36,6 +38,7 @@ const Search = () => {
     });
   };
 
+  // Handle enrollment navigation
   const handleEnrollNow = (courseId: string) => {
     router.push(`/checkout?step=1&id=${courseId}&showSignUp=false`, {
       scroll: false,
@@ -58,6 +61,8 @@ const Search = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="search__courses-grid"
         >
+
+          {/* Render course cards */}
           {courses.map((course) => (
             <CourseCardSearch
               key={course.courseId}
@@ -68,6 +73,7 @@ const Search = () => {
           ))}
         </motion.div>
 
+      {/* Render selected course details */}
         {selectedCourse && (
           <motion.div
             initial={{ y: 40, opacity: 0 }}
