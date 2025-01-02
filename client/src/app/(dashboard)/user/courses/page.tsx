@@ -15,6 +15,7 @@ const Courses = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("all");
 
+  // Fetch user-enrolled courses
   const {
     data: courses,
     isLoading,
@@ -23,6 +24,7 @@ const Courses = () => {
     skip: !isLoaded || !user,
   });
 
+  // Filter courses based on search term and category
   const filteredCourses = useMemo(() => {
     if (!courses) return [];
 
@@ -36,6 +38,7 @@ const Courses = () => {
     });
   }, [courses, searchTerm, selectedCategory]);
 
+  // Navigate to course or first chapter
   const handleGoToCourse = (course: Course) => {
     if (
       course.sections &&
@@ -56,10 +59,11 @@ const Courses = () => {
     }
   };
 
+  // Conditional rendering based on loading/error states
   if (!isLoaded || isLoading) return <Loading />;
   if (!user) return <div>Please sign in to view your courses.</div>;
   if (isError || !courses || courses.length === 0)
-    return <div>You are not enrolled in any courses yet.</div>;
+    return <div>You are not enrolled in any course yet.</div>;
 
   return (
     <div className="user-courses">

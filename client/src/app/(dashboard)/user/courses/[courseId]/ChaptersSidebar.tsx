@@ -17,6 +17,7 @@ const ChaptersSidebar = () => {
   const { setOpen } = useSidebar();
   const [expandedSections, setExpandedSections] = useState<string[]>([]);
 
+  // Fetch user-enrolled courses
   const {
     user,
     course,
@@ -26,7 +27,8 @@ const ChaptersSidebar = () => {
     isLoading,
     updateChapterProgress,
   } = useCourseProgressData();
-
+  
+  // Filter courses based on search term and category
   const sidebarRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -37,6 +39,7 @@ const ChaptersSidebar = () => {
   if (!user) return <div>Please sign in to view course progress.</div>;
   if (!course || !userProgress) return <div>Error loading course content</div>;
 
+  // Navigate to course or first chapter
   const toggleSection = (sectionTitle: string) => {
     setExpandedSections((prevSections) =>
       prevSections.includes(sectionTitle)

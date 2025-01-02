@@ -6,6 +6,7 @@ import React from "react";
 const UserProfilePage = () => {
   return (
     <>
+    {/* Custom header with title and subtitle */}
       <Header title="Profile" subtitle="View your profile" />
       <UserProfile
         path="/user/profile"
