@@ -21,7 +21,6 @@ export default function DashboardLayout({
     pathname
   );
 
-  // Extract courseId from the URL if on a course-related page
   useEffect(() => {
     if (isCoursePage) {
       const match = pathname.match(/\/user\/courses\/([^\/]+)/);
@@ -30,7 +29,7 @@ export default function DashboardLayout({
       setCourseId(null);
     }
   }, [isCoursePage, pathname]);
-  // Handle loading and authentication
+
   if (!isLoaded) return <Loading />;
   if (!user) return <div>Please sign in to access this page.</div>;
 

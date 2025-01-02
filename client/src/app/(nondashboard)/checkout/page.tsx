@@ -10,14 +10,11 @@ import PaymentPage from "./payment";
 import CompletionPage from "./completion";
 
 const CheckoutWizard = () => {
-  // Check if user data is fully loaded
   const { isLoaded } = useUser();
-  // Get the current checkout step
   const { checkoutStep } = useCheckoutNavigation();
 
-  // Show a loading spinner if user data is not loaded
   if (!isLoaded) return <Loading />;
-  // Function to dynamically render the appropriate step
+
   const renderStep = () => {
     switch (checkoutStep) {
       case 1:

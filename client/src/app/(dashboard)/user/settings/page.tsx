@@ -3,7 +3,6 @@ import React from "react";
 
 const UserSettings = () => {
   return (
-    // Wrapper div for layout styling
     <div className="w-3/5">
       <SharedNotificationSettings
         title="User Settings"

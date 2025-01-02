@@ -13,7 +13,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "CourX",
+  title: "courX",
   description: "Essential Learning Management Application",
 };
 
@@ -23,14 +23,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider> {/* Provides authentication context */}
+    <ClerkProvider>
       <html lang="en">
         <body className={`${dmSans.className}`}>
-          <Providers> {/* Global state management provider */}
-            <Suspense fallback={null}> {/* Handles lazy-loaded components */}
-              <div className="root-layout">{children}</div> {/* Main content container */}
+          <Providers>
+            <Suspense fallback={null}>
+              <div className="root-layout">{children}</div>
             </Suspense>
-            <Toaster richColors closeButton /> {/* Toast notifications */}
+            <Toaster richColors closeButton />
           </Providers>
         </body>
       </html>
