@@ -48,14 +48,15 @@ This project leverages modern web technologies to deliver an exceptional user ex
 
 ---
 
-## 📂 File Structure  
-
-├── src/               # Source directory containing the main application code
-│   ├── app/           # Application pages and routing logic
-│   ├── components/    # Reusable UI components for the application
-│   ├── hooks/         # Custom React hooks to encapsulate reusable logic
-│   ├── lib/           # Library files and utilities for application logic
-│   ├── state/         # Redux or state management-related configurations
-│   ├── types/         # TypeScript type definitions for better type safety
-└── public/            # Static assets like images, icons, and fonts
+| **Directory**      | **Description**                                       |
+|---------------------|-------------------------------------------------------|
+| `courX-frontend/`   | Root directory of the project.                       |
+| `src/`              | Source directory containing the main application code. |
+| `src/app/`          | Application pages and routing logic.                 |
+| `src/components/`   | Reusable UI components for the application.          |
+| `src/hooks/`        | Custom React hooks to encapsulate reusable logic.    |
+| `src/lib/`          | Library files and utilities for application logic.   |
+| `src/state/`        | Redux or state management-related configurations.    |
+| `src/types/`        | TypeScript type definitions for better type safety.  |
+| `public/`           | Static assets like images, icons, and fonts.         |
 
