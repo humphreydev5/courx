@@ -48,6 +48,8 @@ This project leverages modern web technologies to deliver an exceptional user ex
 
 ---
 
+## 📂 File Structure  
+
 | **Directory**      | **Description**                                       |
 |---------------------|-------------------------------------------------------|
 | `courX-frontend/`   | Root directory of the project.                       |
