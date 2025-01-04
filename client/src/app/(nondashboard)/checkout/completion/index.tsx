@@ -14,14 +14,14 @@ const CompletionPage = () => {
         </div>
         <h1 className="completion__title">COMPLETED</h1>
         <p className="completion__message">
-          🎉 You have made a course purchase successfully! 🎉
+          🎉 Your course purchase was successful! 🎉
         </p>
       </div>
       <div className="completion__support">
         <p>
           Need help? Contact our{" "}
           <Button variant="link" asChild className="p-0 m-0 text-primary-700">
-            <a href="mailto:support@example.com">customer support</a>
+            <a href="mailto:humphreyikhalea@gmail.com">customer support</a>
           </Button>
           .
         </p>
