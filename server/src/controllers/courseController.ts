@@ -18,7 +18,7 @@ export const listCourses = async (
         : await Course.scan().exec();
     res.json({ message: "Courses retrieved successfully", data: courses });
   } catch (error) {
-    res.status(500).json({ message: "Error retrieving courses", error });
+    res.status(500).json({ message: "No course found"});
   }
 };
 
@@ -33,7 +33,7 @@ export const getCourse = async (req: Request, res: Response): Promise<void> => {
 
     res.json({ message: "Course retrieved successfully", data: course });
   } catch (error) {
-    res.status(500).json({ message: "Error retrieving course", error });
+    res.status(500).json({ message: "Course not found" });
   }
 };
 
