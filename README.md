@@ -56,8 +56,6 @@ Courx aims to provide a scalable and user-friendly solution for educational inst
    git clone https://github.com/username/courx.git
 
 # Navigate to the project directory:
+```bash
 cd courx
-
-# Install dependencies:
-npm install
 
