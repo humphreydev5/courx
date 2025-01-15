@@ -127,7 +127,7 @@ Contact
 For inquiries or support, please contact:
 
 - Author: Humphrey Ikhalea
-- Email: [humphrey.ikhalea@example.com](mailto:humphrey.ikhalea@example.com)
+- Email: [humphreyikhalea@gmail.com](mailto:humphreyikhalea@gmail.com)
 - LinkedIn: [humphreydev](https://www.linkedin.com/in/humphreydev)
 
 
