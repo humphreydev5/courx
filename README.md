@@ -1,10 +1,12 @@
 # Courx - A Scalable Learning Management System (LMS)
 
+
 ## Overview
 
 Courx is a cutting-edge Learning Management System (LMS) designed to streamline the creation, management, and delivery of online education. The platform empowers instructors to create engaging courses, manage student progress, and facilitate seamless communication, while learners can access high-quality educational content with ease.
 
 Courx aims to provide a scalable and user-friendly solution for educational institutions, corporate training programs, and individual educators.
+
 
 ## Features
 
@@ -22,6 +24,7 @@ Courx aims to provide a scalable and user-friendly solution for educational inst
 - **Authentication:** Secure user login and account management powered by Clerk.
 - **Payment Integration:** Stripe integration for seamless payment processing.
 - **Scalability:** Hosted on AWS for high availability and performance.
+
 
 ## Technologies Used
 
@@ -42,6 +45,7 @@ Courx aims to provide a scalable and user-friendly solution for educational inst
 - **AWS S3:** Secure file storage for course materials.
 - **AWS CloudFront:** Global content delivery for optimized performance.
 
+
 ## Installation
 
 ### Prerequisites
@@ -56,35 +60,35 @@ Courx aims to provide a scalable and user-friendly solution for educational inst
    git clone https://github.com/username/courx.git
    ```
 
-# Navigate to the project directory:
+## Navigate to the project directory:
    ```bash
    cd courx
    ```
 
- - # Navigate to the frontend directory:
+ - ### Navigate to the frontend directory:
       ```bash
       cd client
       ```
 
- - # Navigate to the backend directory:
+ - ### Navigate to the backend directory:
       ```bash
       cd server
       ```
 
-# Install dependencies for both the frontend and backend directories independently:
+## Install dependencies for both the frontend and backend directories independently:
 ```bash
 npm install
 ```
 
-# Set up environment variables:
+## Set up environment variables:
 Create a `.env` file in the root directory and add the necessary keys (e.g., <span style="background-color: green;"> API keys</span>, <span style="background-color: green;">database URIs</span>).
 
-# Start the development server:
+## Start the development server:
    ```bash
    npm run dev
    ```
 
-# Deployment:
+## Deployment:
 ### Local Deployment
 - Use Docker to create a local environment:
 <span style="background-color: green;">docker-compose up</span>
@@ -93,6 +97,7 @@ Create a `.env` file in the root directory and add the necessary keys (e.g., <sp
 - Deploy the frontend using Vercel for ease of use.
 - Deploy the backend using AWS Lambda and API Gateway.
 - Use AWS S3 for file storage and CloudFront for content delivery.
+
 
 # Contribution Guidelines
 
@@ -115,6 +120,7 @@ We welcome contributions to enhance Courx.
 # License
 Courx is licensed under the [MIT License](https://chatgpt.com/c/LICENSE). `You are free to use`, modify, and distribute the project under the license terms.
 
+
 Contact
 For inquiries or support, please contact:
 
@@ -122,9 +128,11 @@ For inquiries or support, please contact:
 - Email: [humphrey.ikhalea@example.com](mailto:humphrey.ikhalea@example.com)
 - LinkedIn: [humphreydev](https://www.linkedin.com/in/humphreydev)
 
+
 # Acknowledgments
 - Special thanks to the ALX Webstack specialization for the inspiration and guidance.
 - Open-source communities and tools that made this project possible.
+
 
 # Future Plans
 Courx aims to continue evolving to meet the needs of educators and learners. Planned enhancements include:
@@ -134,5 +142,6 @@ Courx aims to continue evolving to meet the needs of educators and learners. Pla
 - Advanced Analytics: Enable data-driven insights for both instructors and administrators.
 - Multi-Language Support: Expand accessibility with support for multiple languages.
 - Integration with Third-Party Tools: Connect with popular tools like Google Classroom, Slack, and Zoom.
+
 
 > Let’s build the future of education with Courx!
