@@ -120,7 +120,7 @@ We welcome contributions to enhance Courx.
 
 
 # License
-Courx is licensed under the [MIT License](https://chatgpt.com/c/LICENSE). `You are free to use`, modify, and distribute the project under the license terms.
+Courx is licensed under the [MIT License](#). `You are free to use`, modify, and distribute the project under the license terms.
 
 
 Contact
