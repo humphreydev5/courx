@@ -75,16 +75,19 @@ Courx aims to provide a scalable and user-friendly solution for educational inst
 ```bash
 npm install
 ```
+
 # Set up environment variables:
-### Create a .env file in the root directory and add the necessary keys (e.g., API keys, database URIs).
+Create a `.env` file in the root directory and add the necessary keys (e.g., <span style="background-color: green;"> API keys</span>, <span style="background-color: green;">database URIs</span>).
 
 # Start the development server:
-npm run dev
+   ```bash
+   npm run dev
+   ```
 
 # Deployment:
-## Local Deployment
+### Local Deployment
 - Use Docker to create a local environment:
-docker-compose up
+<span style="background-color: green;">docker-compose up</span>
 
 # Cloud Deployment:
 - Deploy the frontend using Vercel for ease of use.
@@ -93,7 +96,8 @@ docker-compose up
 
 # Contribution Guidelines
 
-We welcome contributions to enhance Courx. To contribute:
+We welcome contributions to enhance Courx. 
+`To contribute:`
 
 1. **Fork** the repository.
 2. Create a new branch:
@@ -107,21 +111,22 @@ We welcome contributions to enhance Courx. To contribute:
    git push origin feature-name
 5. Open a pull request.
 
+
 # License
-Courx is licensed under the MIT License. You are free to use, modify, and distribute the project under the license terms.
+Courx is licensed under the [MIT License](https://chatgpt.com/c/LICENSE). `You are free to use`, modify, and distribute the project under the license terms.
 
 Contact
 For inquiries or support, please contact:
 
-Author: Humphrey Ikhalea
-Email: [humphrey.ikhalea@example.com](mailto:humphrey.ikhalea@example.com)
-LinkedIn: [humphreydev](https://www.linkedin.com/in/humphreydev)
+- Author: Humphrey Ikhalea
+- Email: [humphrey.ikhalea@example.com](mailto:humphrey.ikhalea@example.com)
+- LinkedIn: [humphreydev](https://www.linkedin.com/in/humphreydev)
 
 # Acknowledgments
 - Special thanks to the ALX Webstack specialization for the inspiration and guidance.
 - Open-source communities and tools that made this project possible.
 
-#Future Plans
+# Future Plans
 Courx aims to continue evolving to meet the needs of educators and learners. Planned enhancements include:
 
 - Mobile App Development: Provide native apps for iOS and Android platforms.
