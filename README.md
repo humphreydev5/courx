@@ -1,6 +1,5 @@
 # Courx - A Scalable Learning Management System (LMS)
 
-![Uploading Screenshot 2025-01-06 at 16.05.31.png…](https://github.com/humphreydev5/courx/blob/main)
 
 ## Overview
 
