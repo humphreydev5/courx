@@ -49,7 +49,7 @@ Courx aims to provide a scalable and user-friendly solution for educational inst
 ## Installation
 
 ### Prerequisites
-- Node.js (v16 or later)
+- Node.js (`v16` or later)
 - Docker (for containerized deployment)
 - AWS Account (for cloud hosting)
 - Stripe Account (for payment processing)
@@ -81,7 +81,7 @@ npm install
 ```
 
 ## Set up environment variables:
-Create a `.env` file in the root directory and add the necessary keys (e.g., <span style="background-color: green;"> API keys</span>, <span style="background-color: green;">database URIs</span>).
+Create a `.env` file in the root directory and add the necessary keys (e.g., `API keys`, `database URIs`.
 
 ## Start the development server:
    ```bash
@@ -91,12 +91,12 @@ Create a `.env` file in the root directory and add the necessary keys (e.g., <sp
 ## Deployment:
 ### Local Deployment
 - Use Docker to create a local environment:
-<span style="background-color: green;">docker-compose up</span>
+`docker-compose up`
 
 # Cloud Deployment:
-- Deploy the frontend using Vercel for ease of use.
-- Deploy the backend using AWS Lambda and API Gateway.
-- Use AWS S3 for file storage and CloudFront for content delivery.
+- Deploy the frontend using `Vercel` for ease of use.
+- Deploy the backend using `AWS Lambda` and `API Gateway`.
+- Use `AWS S3` for file storage and `CloudFront` for content delivery.
 
 
 # Contribution Guidelines
@@ -144,4 +144,4 @@ Courx aims to continue evolving to meet the needs of educators and learners. Pla
 - Integration with Third-Party Tools: Connect with popular tools like Google Classroom, Slack, and Zoom.
 
 
-> Let’s build the future of education with Courx!
+> Let’s build the future of education with `Courx`!
